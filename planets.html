@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>space</title>
+    <link rel="stylesheet" href="stayle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Universe</a></li>
+            
+            <li><a href="Gala.html">galaxy</a></li>
+            
+            <li><a href="planets.html">space station</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1 class="pla">Space station</h1>
+    <!-----------space -->
+    <section class="space">
+      <div class="row">
+        <div class="abot-col">
+          <h1>International Space Station</h1>
+          <p> <strong> The International Space Station (ISS) is the largest modular space station in low Earth orbit. The project involves five space agencies: those include the United States' NASA, Russia's Roscosmos, Japan's JAXA, Europe's ESA, and Canada's CSA, The ownership and use of the space station is established by intergovernmental treaties and agreements, The station serves as a microgravity and space environment research laboratory in which scientific research is conducted in astrobiology, astronomy, meteorology, physics, and other fields, The ISS is suited for testing the spacecraft systems and equipment required for possible future long-duration missions to the Moon and Mars,
+
+            The ISS programme evolved from the Space Station Freedom, a 1984 American proposal to construct a permanently crewed Earth-orbiting station,[15] and the contemporaneous Soviet/Russian Mir-2 proposal from 1976 with similar aims. The ISS is the ninth space station to be inhabited by crews, following the Soviet and later Russian Salyut, Almaz, and Mir stations and the American Skylab. It is the largest artificial object in the solar system and the largest satellite in low Earth orbit, regularly visible to the naked eye from Earth's surface, It maintains an orbit with an average altitude of 400 kilometres (250 mi) by means of reboost manoeuvres using the engines of the Zvezda Service Module or visiting spacecraft, The ISS circles the Earth in roughly 93 minutes, completing 15.5 orbits per day.</strong></p>
+            
+        </div>
+        <div class="abot-col">
+          <img src="international space.jpg" >
+      </div>
+    </section>
+
+
+
+
+
+
+
+    <!-----Foteer-->
+    <section class="footer">
+      <h4>About Me</h4>
+      <p>
+        this is my social media accounts seand me a massage if like the website
+      </p>
+      <div class="icons">
+        <a href="https://instagram.com/iilovethesmithss?igshid=ZmZhODViOGI="
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a
+          href="https://twitter.com/iilovethesmaits?t=nvn-KqP9oT_sYIjPicDIhw&s=09"
+          ><i class="fa fa-twitter"></i
+        ></a>
+      </div>
+    </section>
+    <!------JavaScript for Toggle Menu------->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu() {
+        navlinks.style.right = "0";
+      }
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
